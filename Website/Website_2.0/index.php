@@ -35,8 +35,8 @@
             <div class="intro">
                 <h3>De Gokkers</h3>
                 <h4>Summary</h4>
-                <span>Welcome by the Gokkers application.</span>
-                <p>This application is a game that simulates a bedding game.</p>
+                <span>Welcome to the Gokkers application.</span>
+                <p>This application is a game that simulates a betting game.</p>
             </div>
 
             <div class="game">
@@ -44,22 +44,22 @@
 
                     <div class="gameDescription">
                         <p>Description</p>
-                        <p>The game has three Player. The players are Sieste, Ferr and Lidy. And there are five zebra.</p>
-                        <p>you're goal is to pick one of the five zebra's that are available. pick you name mark the button and bet.</p>
-                        <p>When you win will gain the double form what you bet, but if you lose. You will lose the money that you bet.</p>
-                        <p>But watch out there. Weather is not so great in the Netherlands. it rains often!</p>
+                        <p>The game has three players. The players are Sieste, Fer and Lidy. And there are five zebras.</p>
+                        <p>Your goal is to pick one of the five zebras that are available. Pick your name, mark the button and bet.</p>
+                        <p>When you win you will gain double the amount of what you bet, but if you lose, you will lose the money that you bet.</p>
+                        <p>But watch out there. Weather is not so great in the Netherlands. It rains often!</p>
                     </div>
 
                     <div class="gameRules">
 
                         <p>Rules</p>
                             <ul>
-                            <li>Minimum amount to bet = € 5</li>
-                            <li>Maximum amount yo bet = € 15</li>
-                            <li>You can bet only one's</li>
-                            <li>Every player can only bet on one Zebra</li>
-                            <li>When a bet is placed there is no changing</li>
-                            <li>While the zebra are running the bets are closed of</li>
+                            <li>Minimum amount to bet = € 5,-</li>
+                            <li>Maximum amount to bet = € 15,-</li>
+                            <li>You can only bet on one zebra.</li>
+                            <li>Every player can only bet on one Zebra.</li>
+                            <li>When a bet is placed there is no changing it.</li>
+                            <li>While the zebra are running the bets are closed off.</li>
                         </ul>
                     </div>
                 </div>
