@@ -70,7 +70,7 @@
     <div class="register"><a name="register"></a>
         <div class="register-center">
             <h2>register</h2>
-            <form action="">
+            <form action="regester.php">
                 <div class="form-group">
                     <label for="email">E-mail adres: </label>
                     <input type="email" name="email" id="email" required>
