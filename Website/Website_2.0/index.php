@@ -72,6 +72,12 @@
             <h2>register</h2>
             <form action="regester.php">
                 <div class="form-group">
+                    <?php
+                        if (isset($_GET['message']))
+                        {
+                            echo "<p> {$_GET['message']} </p>";
+                        }
+                    ?>
                     <label for="email">E-mail adres: </label>
                     <input type="email" name="email" id="email" required>
                     <label for="password">Password: </label>
@@ -84,16 +90,35 @@
 
     <div class="download">
         <div class="download-center">
-            <h2><a href="download.php">Download</a></h2>
+            <h2>Download</h2>
             <div class="login">
-                <form action="">
-                    <div class="form-group">
-                        <label id="login" for="email">Login: </label>
-                        <label for="email">E-mail adres: </label>
-                        <input type="email" name="email" id="email" required>
-                        <label for="password">Password: </label>
-                        <input type="password" name="password" id="password" required>
-                        <input type="submit" id="submit" value="Verstuur">
+                <form action="login.php">
+                    
+                    <div class="items">
+                        <div class="D_Button">
+                            <?php
+                                if (isset($_GET['messageLogin']))
+                                {
+                                    echo "<p> {$_GET['messageLogin']} </p>";
+                                    echo "<p>Download Now</p>";
+                                    echo '<span><a href="http://bluenik.com/320" target="_blank">Click Here!</a></span>';
+                                }else
+                                {
+                                    
+                                    echo "<p>Please Login to Download.</p>";
+                                }
+                            ?>
+                        </div>
+                        
+                        <div class="form-group">
+                            
+                            <label id="login" for="email">Login: </label>
+                            <label for="email">E-mail adres: </label>
+                            <input type="email" name="email" id="email" required>
+                            <label for="password">Password: </label>
+                            <input type="password" name="password" id="password" required>
+                            <input type="submit" id="submit" value="Verstuur">
+                        </div>
                     </div>
                 </form>
             </div>
